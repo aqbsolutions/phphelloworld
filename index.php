@@ -15,8 +15,7 @@
     </style>
 </head>
 <body>
-<h1>this is from git</h1>
-<h1>this is from git</h1>
+<h1>User Information:</h1>
 <?php
 require_once('config.php');
 
