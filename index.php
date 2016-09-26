@@ -16,6 +16,7 @@
 </head>
 <body>
 <h1>this is from git</h1>
+<h1>this is from git</h1>
 <?php
 $servername = "<%= node['awesome_customers_ubuntu']['database']['host'] %>";
 $username = "<%= node['awesome_customers_ubuntu']['database']['admin_username'] %>";
