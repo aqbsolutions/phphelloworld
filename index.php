@@ -18,10 +18,7 @@
 <h1>this is from git</h1>
 <h1>this is from git</h1>
 <?php
-$servername = "<%= node['awesome_customers_ubuntu']['database']['host'] %>";
-$username = "<%= node['awesome_customers_ubuntu']['database']['admin_username'] %>";
-$password = "<%= node['awesome_customers_ubuntu']['database']['admin_password'] %>";
-$dbname = "<%= node['awesome_customers_ubuntu']['database']['dbname'] %>";
+require_once('config.php');
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
