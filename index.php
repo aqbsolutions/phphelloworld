@@ -4,13 +4,14 @@
     <title>Customers</title>
     <style>
       table, th, td {
-        border: 2px solid #999999;
+        border: 1px solid #999999;
         border-collapse: collapse;
         font-family: sans-serif;
         padding: 15px;
       }
-      table tr:nth-child(even) td {
-        background-color: #CCCCCC;
+      th{
+        background: #00cccc;
+        color: #fff;
       }
     </style>
 </head>
